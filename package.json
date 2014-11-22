@@ -1,0 +1,25 @@
+{
+  "name": "bootsie-file",
+  "version": "1.0.0",
+  "description": "File handling plugin for bootsie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MichaelCereda/bootsie-file.git"
+  },
+  "keywords": [
+    "bootsie",
+    "file",
+    "handling",
+    "bootsieplugin"
+  ],
+  "author": "Michael Cereda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelCereda/bootsie-file/issues"
+  },
+  "homepage": "https://github.com/MichaelCereda/bootsie-file"
+}
