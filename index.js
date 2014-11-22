@@ -1,10 +1,7 @@
 var fs = require('fs'),
-    path = require('path'),
-    load_conf = require("bootsie/lib/load_conf");
+    path = require('path');
 
 function bootsie_file_filter (conf){
-    var __conf = conf;
-
     function __get_db_file(target_name, name){
         var target_folder = conf.directories.database;
         //console.log(target_folder);
@@ -35,14 +32,3 @@ function bootsie_file_filter (conf){
     }
 }
 module.exports = bootsie_file_filter;
-
-/**
- * MD
- *
- if(key.lastIndexOf("_md")!==-1){
-                var c = markdown.toHTML(root[key]);
-                delete root[key];
-                key = key.substring(0, key.lastIndexOf("_md"));
-                root[key] = c;
-            }
- */
